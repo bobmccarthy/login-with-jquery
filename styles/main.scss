@@ -1,3 +1,46 @@
+body{
+	font-family: sans-serif;
+}
 button{
-	display: block;
+	// display: block;
+	// margin-left: 60%;
+	border: none;
+	border-radius: .5em;
+	color: white;
+	text-shadow: 1px 1px 2px black;
+	margin-top: .5em;
+	height: 2em;
+	width: 5.2em;
+	background-image: linear-gradient(#AAD150, #4B9805);
+
+}
+.btn{
+	padding-left: 12.5em;
+	text-align: center;
+}
+.top{
+	background-image: url('../images/bg-login-top.png');
+	height: 14em;
+	text-align: center;
+}
+.logo{
+	height: 5.3em;
+	padding-top: 7.2em;
+}
+form{
+	color: white;
+	text-align: center;
+	padding-bottom: 14em;
+	padding-top: 1em;
+	background-image: url('../images/bg-login.png');
+}
+.edia{
+	display: inline;
+	font-size: .75em;
+}
+input{
+	border-radius: .5em;
+	height: 2em;
+	width: 18em;
+	margin: .5em 2em;
 }
